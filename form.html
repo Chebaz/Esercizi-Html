@@ -14,39 +14,79 @@
       }
     </style>
   </head>
-
   <body>
     <form>
-      <label for="email">Email:</label>
-      <input type="text" placeholder="example@gmail.com" />
-      <label for="password">Password</label>
-      <input type="text" />
-      <label for="name">Name</label>
-      <input type="text" />
-      <label for="surname"> surname</label>
-      <input type="text" />
-      <label for="date">Date of birth</label>
-      <input type="date" />
-      <label type="Telephone number">Telephone number</label>
-      <input type="text" /><br />
-      <input type="checkbox" id="free-plan" />
-      <label for="free-plan">Free plan</label>
-      <input type="radio" id="private-plan" name="pay-plan" />
-      <label for="private-plan">private-plan</label>
-      <input type="radio" id="double-plan" name="pay-plan" />
-      <label for="double-plan">double-plan</label>
-      <input type="radio" id="company-plan" name="pay-plan" />
-      <label for="company-plan">company-plan</label>
-      <label for="pro-plan">Pro plan</label>
-      <input type="checkbox" id="pro-plan" />
-      <label for="credit-card-number">Credit Card Number</label>
-      <input type="text" />
-      <label for="CVC">CVC</label>
-      <input type="text" />
-      <label for="expiration">Expiration date</label>
-      <input type="text" />
-      <label for="billing-adress"> Billing Adress</label>
-      <input type="text" />
+      <div>
+        <h3>Personal information:</h3>
+        <label for="email"
+          >Email:
+          <input type="text" name="email" placeholder="example@gmail.com" />
+        </label>
+        <label for="password"
+          >Password
+          <input type="password" name="password" />
+        </label>
+        <label for="name"
+          >Name
+          <input type="text" name="name" />
+        </label>
+        <label for="surname">
+          surname
+          <input type="text" name="surname" />
+        </label>
+        <label for="date"
+          >Date of birth
+          <input type="date" name="date" />
+        </label>
+        <label for="telephone-number"
+          >Telephone number
+          <input type="text" name="telephone-number" />
+        </label>
+      </div>
+      <hr />
+      <div>
+        <h3>Choose your plan:</h3>
+        <label for="free-plan" name="pay-plan">
+          <input type="radio" id="free-plan " name="pay-plan" /> Free plan
+        </label>
+        <label for="private-plan" name="pay-plan">
+          <input type="radio" id="private-plan" name="pay-plan" />Private plan -
+          40$
+        </label>
+        <label for="double-plan">
+          <input type="radio" id="double-plan" name="pay-plan" />Double plan -
+          70$
+        </label>
+        <label for="company-plan">
+          <input type="radio" id="company-plan" name="pay-plan" />Company plan -
+          110$
+        </label>
+        <label for="pro-plan" name="pro-plan">
+          <input type="checkbox" id="pro-plan" /> Pro plan
+        </label>
+      </div>
+      <hr />
+      <div>
+        <h3>Payment information:</h3>
+        <label for="credit-card-number"
+          >Credit Card Number
+          <input type="text" name="credit-card-number" />
+        </label>
+        <label for="CVC"
+          >CVC:
+          <input type="text" name="CVC" />
+        </label>
+        <label for="expiration"
+          >Expiration date
+          <input type="date" name="expiration" />
+        </label>
+        <label for="billing-adress">
+          Billing Adress
+          <input type="text" name="billing-adress" />
+        </label>
+      </div>
+      <br />
+      <button>Submit</button>
     </form>
   </body>
 </html>
