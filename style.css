@@ -1,0 +1,37 @@
+html {
+  background-color: #2b2a2a;
+}
+nav {
+  display: inline-flex;
+  background-color: #383636;
+  border-bottom: 1px solid white;
+}
+.logo {
+  display: inline-flex;
+  padding-top: 13px;
+  padding-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+ul {
+  padding-left: 25px;
+}
+li {
+  display: inline;
+  color: white;
+  margin-left: 10px;
+}
+a {
+  color: white;
+}
+input[type="text"] {
+  margin-left: 50px;
+  border-radius: 10%;
+}
+
+button {
+  color: green;
+  border: 2px solid green;
+  background-color: #2b2a2a;
+  border-radius: 10%;
+}
