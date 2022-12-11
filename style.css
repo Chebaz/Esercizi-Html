@@ -1,37 +1,60 @@
-html {
-  background-color: #2b2a2a;
-}
-nav {
-  display: inline-flex;
-  background-color: #383636;
-  border-bottom: 1px solid white;
-}
-.logo {
-  display: inline-flex;
-  padding-top: 13px;
-  padding-left: 10px;
-  color: white;
-  font-size: 20px;
-}
-ul {
-  padding-left: 25px;
-}
-li {
-  display: inline;
-  color: white;
-  margin-left: 10px;
-}
-a {
-  color: white;
-}
-input[type="text"] {
-  margin-left: 50px;
-  border-radius: 10%;
+body {
+  display: flex;
+  background-color: #242425;
+  font-family: Helvetica Neue;
 }
 
-button {
+ul {
+  background-color: #303031;
+  display: flex;
+  border-bottom: 2px solid white;
+}
+ul li {
+  list-style: none;
+  padding-right: 25px;
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  font-size: 25px;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+.option {
+  color: #676768;
+  padding-top: -10px;
+}
+#option1 {
+  color: white;
+}
+#option2 {
+  color: rgb(201, 200, 200);
+}
+#option3 {
+  color: rgb(136, 135, 135);
+}
+#option4 {
+  color: rgb(95, 95, 95);
+}
+.search {
+  font-size: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-top: -20px;
+  padding: 10px;
+}
+.search-button {
+  font-size: 20px;
+  background-color: #303031;
   color: green;
   border: 2px solid green;
-  background-color: #2b2a2a;
-  border-radius: 10%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: -20px;
 }
