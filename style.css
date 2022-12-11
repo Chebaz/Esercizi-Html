@@ -1,35 +1,18 @@
+:root {
+  --brown: #514412;
+  --orange: #ff8800;
+  --width-ball: 100px;
+  --height-ball: 100px;
+  --radius: 50px;
+}
+
 body {
-  font-family: sans-serif;
-}
-table {
-  border: 2px solid grey;
+  background-color: var(--brown);
 }
 
-.image {
-  border-bottom: 2px solid grey;
-}
-.description {
-  padding-left: 15px;
-  border-width: 100%;
-  border-bottom: 2px solid grey;
-}
-.presence {
-  padding-left: 15px;
-  border-width: 100%;
-  border-bottom: 2px solid grey;
-}
-.goal {
-  padding-left: 15px;
-  border-width: 100%;
-  border-bottom: 2px solid grey;
-}
-.avarage {
-  padding-left: 15px;
-  border-width: 100%;
-  border-bottom: 2px solid grey;
-}
-
-a {
-  padding-left: 15px;
-  font-size: 20px;
+.ball {
+  width: var(--width-ball);
+  height: var(--height-ball);
+  background-color: var(--orange);
+  border-radius: var(--radius);
 }
