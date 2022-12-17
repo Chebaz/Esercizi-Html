@@ -3,11 +3,18 @@ body {
   background-color: #242425;
   font-family: Helvetica Neue;
 }
-
+.navBar {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
 ul {
   background-color: #303031;
   display: flex;
   border-bottom: 2px solid white;
+
+  overflow: hidden;
 }
 ul li {
   list-style: none;
@@ -25,7 +32,7 @@ ul li a {
   margin-right: 35px;
   margin-top: 20px;
 }
-.option {
+.menu-voice {
   color: #676768;
   padding-top: -10px;
 }
@@ -61,4 +68,23 @@ ul li a {
 .search-button:hover {
   color: white;
   background-color: green;
+}
+.hamburger-icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .menu-voice {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .search-button {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+    position: fixed;
+    right: 0;
+  }
 }
